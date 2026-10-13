@@ -1,0 +1,30 @@
+# 비밀 정보 (API 키, 토큰)
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# 파이썬 자동 생성물
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 앱이 만드는 캐시 (다시 받아올 수 있음)
+protinteract/data/cache/
+
+# 분석 결과·구조 파일 (용량이 크고 재생성 가능)
+*.pdb
+*.cif
+*.mmcif
+*.pse
+
+# 편집기·OS 개인 파일
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
